@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
+  <Default Extension="json" ContentType="application/json"/>
+  <Default Extension="png"  ContentType="image/png"/>
+  <Override PartName="/Report/Layout"             ContentType="application/json"/>
+  <Override PartName="/DataModel"                 ContentType="application/octet-stream"/>
+  <Override PartName="/Connections"               ContentType="application/json"/>
+  <Override PartName="/Settings"                  ContentType="application/json"/>
+  <Override PartName="/SecurityBindings"          ContentType="application/octet-stream"/>
+  <Override PartName="/Version"                   ContentType="application/json"/>
+</Types>

@@ -1,0 +1,436 @@
+{
+  "id": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "name": "SharedResources",
+        "type": 2,
+        "items": [
+          {
+            "type": 202,
+            "path": "BaseThemes/CY24SU04.json",
+            "name": "CY24SU04"
+          }
+        ],
+        "disabled": false
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "name": "ReportSection",
+      "displayName": "Overview Dashboard",
+      "filters": "[]",
+      "ordinal": 0,
+      "width": 1280,
+      "height": 720,
+      "background": {
+        "color": "#0F1117",
+        "transparency": 0
+      },
+      "visualContainers": [
+        {
+          "id": 39879,
+          "type": "card",
+          "position": {
+            "x": 20,
+            "y": 20,
+            "z": 0,
+            "width": 190,
+            "height": 90,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"card_Total_Revenue\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 190, \"height\": 90, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"categoryLabel\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Total Revenue'\"}}}}}]}}",
+          "filters": "[]",
+          "query": "{\"Version\": 2, \"Query\": {\"Commands\": [{\"SemanticQueryDataShapeCommand\": {\"Query\": {\"Version\": 2, \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"ecommerce_sales_dataset\"}}, \"Property\": \"Total Revenue\"}, \"Name\": \"Sum(Total Revenue)\"}]}}}]}}",
+          "dataTransforms": "{\"selects\": [{\"queryName\": \"Sum(Total Revenue)\", \"roles\": {\"Values\": 0}, \"format\": {\"formatString\": \"#,0.00,,\\\\L\"}}]}"
+        },
+        {
+          "id": 60147,
+          "type": "card",
+          "position": {
+            "x": 220,
+            "y": 20,
+            "z": 0,
+            "width": 190,
+            "height": 90,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"card_Total_Profit\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 190, \"height\": 90, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"categoryLabel\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Total Profit'\"}}}}}]}}",
+          "filters": "[]",
+          "query": "{\"Version\": 2, \"Query\": {\"Commands\": [{\"SemanticQueryDataShapeCommand\": {\"Query\": {\"Version\": 2, \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"ecommerce_sales_dataset\"}}, \"Property\": \"Total Profit\"}, \"Name\": \"Sum(Total Profit)\"}]}}}]}}",
+          "dataTransforms": "{\"selects\": [{\"queryName\": \"Sum(Total Profit)\", \"roles\": {\"Values\": 0}, \"format\": {\"formatString\": \"#,0.00,,\\\\L\"}}]}"
+        },
+        {
+          "id": 40064,
+          "type": "card",
+          "position": {
+            "x": 420,
+            "y": 20,
+            "z": 0,
+            "width": 190,
+            "height": 90,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"card_Profit_Margin_%\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 190, \"height\": 90, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"categoryLabel\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Profit Margin %'\"}}}}}]}}",
+          "filters": "[]",
+          "query": "{\"Version\": 2, \"Query\": {\"Commands\": [{\"SemanticQueryDataShapeCommand\": {\"Query\": {\"Version\": 2, \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"ecommerce_sales_dataset\"}}, \"Property\": \"Profit Margin %\"}, \"Name\": \"Sum(Profit Margin %)\"}]}}}]}}",
+          "dataTransforms": "{\"selects\": [{\"queryName\": \"Sum(Profit Margin %)\", \"roles\": {\"Values\": 0}, \"format\": {\"formatString\": \"0.0\\\\%\"}}]}"
+        },
+        {
+          "id": 73134,
+          "type": "card",
+          "position": {
+            "x": 620,
+            "y": 20,
+            "z": 0,
+            "width": 190,
+            "height": 90,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"card_Total_Orders\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 190, \"height\": 90, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"categoryLabel\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Total Orders'\"}}}}}]}}",
+          "filters": "[]",
+          "query": "{\"Version\": 2, \"Query\": {\"Commands\": [{\"SemanticQueryDataShapeCommand\": {\"Query\": {\"Version\": 2, \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"ecommerce_sales_dataset\"}}, \"Property\": \"Total Orders\"}, \"Name\": \"Sum(Total Orders)\"}]}}}]}}",
+          "dataTransforms": "{\"selects\": [{\"queryName\": \"Sum(Total Orders)\", \"roles\": {\"Values\": 0}, \"format\": {\"formatString\": \"#,0\"}}]}"
+        },
+        {
+          "id": 76097,
+          "type": "card",
+          "position": {
+            "x": 820,
+            "y": 20,
+            "z": 0,
+            "width": 190,
+            "height": 90,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"card_Total_Qty_Sold\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 190, \"height\": 90, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"categoryLabel\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Total Qty Sold'\"}}}}}]}}",
+          "filters": "[]",
+          "query": "{\"Version\": 2, \"Query\": {\"Commands\": [{\"SemanticQueryDataShapeCommand\": {\"Query\": {\"Version\": 2, \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"ecommerce_sales_dataset\"}}, \"Property\": \"Total Qty Sold\"}, \"Name\": \"Sum(Total Qty Sold)\"}]}}}]}}",
+          "dataTransforms": "{\"selects\": [{\"queryName\": \"Sum(Total Qty Sold)\", \"roles\": {\"Values\": 0}, \"format\": {\"formatString\": \"#,0\"}}]}"
+        },
+        {
+          "id": 76494,
+          "type": "card",
+          "position": {
+            "x": 1020,
+            "y": 20,
+            "z": 0,
+            "width": 240,
+            "height": 90,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"card_Avg_Order_Value\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 240, \"height\": 90, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"categoryLabel\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Avg Order Value'\"}}}}}]}}",
+          "filters": "[]",
+          "query": "{\"Version\": 2, \"Query\": {\"Commands\": [{\"SemanticQueryDataShapeCommand\": {\"Query\": {\"Version\": 2, \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"ecommerce_sales_dataset\"}}, \"Property\": \"Avg Order Value\"}, \"Name\": \"Sum(Avg Order Value)\"}]}}}]}}",
+          "dataTransforms": "{\"selects\": [{\"queryName\": \"Sum(Avg Order Value)\", \"roles\": {\"Values\": 0}, \"format\": {\"formatString\": \"#,0\"}}]}"
+        },
+        {
+          "id": 26868,
+          "type": "lineChart",
+          "position": {
+            "x": 20,
+            "y": 130,
+            "z": 0,
+            "width": 550,
+            "height": 250,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"visual_lineChart_6868\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 550, \"height\": 250, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Monthly Revenue Trend'\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": \"#1E2130\"}}}}]}}",
+          "filters": "[]",
+          "query": "{}",
+          "dataTransforms": "{}"
+        },
+        {
+          "id": 46061,
+          "type": "donutChart",
+          "position": {
+            "x": 590,
+            "y": 130,
+            "z": 0,
+            "width": 290,
+            "height": 250,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"visual_donutChart_6061\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 290, \"height\": 250, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Sales by Category'\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": \"#1E2130\"}}}}]}}",
+          "filters": "[]",
+          "query": "{}",
+          "dataTransforms": "{}"
+        },
+        {
+          "id": 5777,
+          "type": "barChart",
+          "position": {
+            "x": 900,
+            "y": 130,
+            "z": 0,
+            "width": 360,
+            "height": 250,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"visual_barChart_5777\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 360, \"height\": 250, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Revenue by Region'\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": \"#1E2130\"}}}}]}}",
+          "filters": "[]",
+          "query": "{}",
+          "dataTransforms": "{}"
+        },
+        {
+          "id": 51933,
+          "type": "columnChart",
+          "position": {
+            "x": 20,
+            "y": 400,
+            "z": 0,
+            "width": 360,
+            "height": 300,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"visual_columnChart_1933\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 360, \"height\": 300, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Revenue by Payment Mode'\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": \"#1E2130\"}}}}]}}",
+          "filters": "[]",
+          "query": "{}",
+          "dataTransforms": "{}"
+        },
+        {
+          "id": 94985,
+          "type": "columnChart",
+          "position": {
+            "x": 400,
+            "y": 400,
+            "z": 0,
+            "width": 340,
+            "height": 300,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"visual_columnChart_4985\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 340, \"height\": 300, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Profit by Segment'\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": \"#1E2130\"}}}}]}}",
+          "filters": "[]",
+          "query": "{}",
+          "dataTransforms": "{}"
+        },
+        {
+          "id": 34735,
+          "type": "barChart",
+          "position": {
+            "x": 760,
+            "y": 400,
+            "z": 0,
+            "width": 500,
+            "height": 300,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"visual_barChart_4735\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 500, \"height\": 300, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Top Sub-Categories by Revenue'\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": \"#1E2130\"}}}}]}}",
+          "filters": "[]",
+          "query": "{}",
+          "dataTransforms": "{}"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ReportSection2",
+      "displayName": "Product Analysis",
+      "filters": "[]",
+      "ordinal": 1,
+      "width": 1280,
+      "height": 720,
+      "background": {
+        "color": "#0F1117",
+        "transparency": 0
+      },
+      "visualContainers": [
+        {
+          "id": 15734,
+          "type": "scatterChart",
+          "position": {
+            "x": 20,
+            "y": 20,
+            "z": 0,
+            "width": 580,
+            "height": 340,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"visual_scatterChart_5734\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 580, \"height\": 340, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Sales vs Profit by Sub-Category'\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": \"#1E2130\"}}}}]}}",
+          "filters": "[]",
+          "query": "{}",
+          "dataTransforms": "{}"
+        },
+        {
+          "id": 24874,
+          "type": "treemap",
+          "position": {
+            "x": 620,
+            "y": 20,
+            "z": 0,
+            "width": 640,
+            "height": 340,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"visual_treemap_4874\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 640, \"height\": 340, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Revenue Treemap by Sub-Category'\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": \"#1E2130\"}}}}]}}",
+          "filters": "[]",
+          "query": "{}",
+          "dataTransforms": "{}"
+        },
+        {
+          "id": 44579,
+          "type": "tableEx",
+          "position": {
+            "x": 20,
+            "y": 380,
+            "z": 0,
+            "width": 1240,
+            "height": 300,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"visual_tableEx_4579\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 1240, \"height\": 300, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Product Revenue Detail Table'\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": \"#1E2130\"}}}}]}}",
+          "filters": "[]",
+          "query": "{}",
+          "dataTransforms": "{}"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ReportSection3",
+      "displayName": "Customer Analysis",
+      "filters": "[]",
+      "ordinal": 2,
+      "width": 1280,
+      "height": 720,
+      "background": {
+        "color": "#0F1117",
+        "transparency": 0
+      },
+      "visualContainers": [
+        {
+          "id": 80843,
+          "type": "barChart",
+          "position": {
+            "x": 20,
+            "y": 20,
+            "z": 0,
+            "width": 640,
+            "height": 340,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"visual_barChart_843\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 640, \"height\": 340, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Top 15 Customers by Revenue'\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": \"#1E2130\"}}}}]}}",
+          "filters": "[]",
+          "query": "{}",
+          "dataTransforms": "{}"
+        },
+        {
+          "id": 10053,
+          "type": "donutChart",
+          "position": {
+            "x": 680,
+            "y": 20,
+            "z": 0,
+            "width": 580,
+            "height": 340,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"visual_donutChart_53\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 580, \"height\": 340, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Customer Segment Distribution'\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": \"#1E2130\"}}}}]}}",
+          "filters": "[]",
+          "query": "{}",
+          "dataTransforms": "{}"
+        },
+        {
+          "id": 22924,
+          "type": "columnChart",
+          "position": {
+            "x": 20,
+            "y": 380,
+            "z": 0,
+            "width": 1240,
+            "height": 300,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"visual_columnChart_2924\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 1240, \"height\": 300, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Segment vs Payment Mode Matrix'\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": \"#1E2130\"}}}}]}}",
+          "filters": "[]",
+          "query": "{}",
+          "dataTransforms": "{}"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "ReportSection4",
+      "displayName": "Time Intelligence",
+      "filters": "[]",
+      "ordinal": 3,
+      "width": 1280,
+      "height": 720,
+      "background": {
+        "color": "#0F1117",
+        "transparency": 0
+      },
+      "visualContainers": [
+        {
+          "id": 22051,
+          "type": "areaChart",
+          "position": {
+            "x": 20,
+            "y": 20,
+            "z": 0,
+            "width": 640,
+            "height": 330,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"visual_areaChart_2051\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 640, \"height\": 330, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Revenue YTD Trend'\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": \"#1E2130\"}}}}]}}",
+          "filters": "[]",
+          "query": "{}",
+          "dataTransforms": "{}"
+        },
+        {
+          "id": 36175,
+          "type": "columnChart",
+          "position": {
+            "x": 680,
+            "y": 20,
+            "z": 0,
+            "width": 580,
+            "height": 330,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"visual_columnChart_6175\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 580, \"height\": 330, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Quarterly Revenue'\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": \"#1E2130\"}}}}]}}",
+          "filters": "[]",
+          "query": "{}",
+          "dataTransforms": "{}"
+        },
+        {
+          "id": 44594,
+          "type": "lineChart",
+          "position": {
+            "x": 20,
+            "y": 370,
+            "z": 0,
+            "width": 640,
+            "height": 330,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"visual_lineChart_4594\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 640, \"height\": 330, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Month-over-Month Growth %'\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": \"#1E2130\"}}}}]}}",
+          "filters": "[]",
+          "query": "{}",
+          "dataTransforms": "{}"
+        },
+        {
+          "id": 70625,
+          "type": "tableEx",
+          "position": {
+            "x": 680,
+            "y": 370,
+            "z": 0,
+            "width": 580,
+            "height": 330,
+            "tabOrder": 1000
+          },
+          "config": "{\"name\": \"visual_tableEx_625\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 580, \"height\": 330, \"tabOrder\": 0}}], \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Monthly Summary Table'\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": \"#1E2130\"}}}}]}}",
+          "filters": "[]",
+          "query": "{}",
+          "dataTransforms": "{}"
+        }
+      ]
+    }
+  ],
+  "config": "{\"version\": \"5.43\", \"themeCollection\": {\"baseTheme\": {\"name\": \"ECommerce Dark\", \"version\": \"5.43\", \"type\": 2}}, \"activeSectionIndex\": 0}",
+  "filters": "[]",
+  "version": "5.43"
+}

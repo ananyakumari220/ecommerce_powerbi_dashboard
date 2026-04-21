@@ -1,0 +1,17 @@
+{
+  "Version": 3,
+  "Connections": [
+    {
+      "Name": "ecommerce_sales_dataset",
+      "ConnectionString": "Data Source=ecommerce_sales_dataset.csv",
+      "Provider": "Microsoft.Mashup.OleDb.1",
+      "PbiServiceModelId": null,
+      "PbiModelVirtualServerName": "scu2",
+      "PbiModelDatabaseName": "xxxxxxxx",
+      "Type": "pbiServiceLive",
+      "DatabaseName": "",
+      "ServerName": "pbiazure://api.powerbi.com",
+      "Mode": "Import"
+    }
+  ]
+}

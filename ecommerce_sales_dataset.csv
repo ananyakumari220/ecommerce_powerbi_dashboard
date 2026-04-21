@@ -1,0 +1,151 @@
+Order_ID,Order_Date,Ship_Date,Customer_ID,Customer_Name,Segment,City,State,Region,Category,Sub_Category,Product_Name,Sales,Quantity,Discount,Profit,Shipping_Cost,Payment_Mode,Return_Status
+EC-001,2024-01-03,2024-01-07,C-1001,Aarav Sharma,Consumer,Mumbai,Maharashtra,West,Electronics,Smartphones,Samsung Galaxy S23,45999,1,0.05,9200,150,UPI,Not Returned
+EC-002,2024-01-05,2024-01-09,C-1002,Priya Mehta,Corporate,Delhi,Delhi,North,Clothing,Men's Wear,Arrow Formal Shirt,1499,3,0.1,450,50,Credit Card,Not Returned
+EC-003,2024-01-06,2024-01-10,C-1003,Rohan Patel,Consumer,Bangalore,Karnataka,South,Electronics,Laptops,HP Pavilion 15,62999,1,0.0,12600,200,Debit Card,Not Returned
+EC-004,2024-01-08,2024-01-12,C-1004,Sunita Rao,Home Office,Chennai,Tamil Nadu,South,Furniture,Chairs,Godrej Office Chair,8500,2,0.05,1700,300,COD,Not Returned
+EC-005,2024-01-10,2024-01-14,C-1005,Vikram Singh,Consumer,Hyderabad,Telangana,South,Beauty,Skincare,Lakme Sunscreen SPF50,699,4,0.0,280,30,UPI,Not Returned
+EC-006,2024-01-12,2024-01-16,C-1006,Anjali Gupta,Corporate,Pune,Maharashtra,West,Electronics,Tablets,Apple iPad 10th Gen,52999,1,0.05,7950,180,Credit Card,Not Returned
+EC-007,2024-01-14,2024-01-18,C-1007,Deepak Kumar,Consumer,Kolkata,West Bengal,East,Clothing,Women's Wear,Biba Kurti,1299,2,0.1,390,40,Debit Card,Not Returned
+EC-008,2024-01-16,2024-01-20,C-1008,Neha Joshi,Consumer,Ahmedabad,Gujarat,West,Grocery,Snacks,Haldiram Bhujia 1kg,299,5,0.0,120,20,COD,Not Returned
+EC-009,2024-01-18,2024-01-22,C-1009,Amit Verma,Corporate,Jaipur,Rajasthan,North,Electronics,Accessories,boAt Airdopes 141,1999,2,0.1,600,60,UPI,Not Returned
+EC-010,2024-01-20,2024-01-24,C-1010,Kavya Reddy,Consumer,Surat,Gujarat,West,Furniture,Tables,Wooden Study Table,6500,1,0.0,1300,250,Credit Card,Not Returned
+EC-011,2024-01-22,2024-01-26,C-1001,Aarav Sharma,Consumer,Mumbai,Maharashtra,West,Clothing,Footwear,Nike Air Max,7999,1,0.05,1600,80,Debit Card,Not Returned
+EC-012,2024-01-24,2024-01-28,C-1011,Rahul Tiwari,Home Office,Lucknow,Uttar Pradesh,North,Electronics,Printers,HP LaserJet Pro,18999,1,0.0,3800,120,COD,Not Returned
+EC-013,2024-01-26,2024-01-30,C-1012,Pooja Nair,Consumer,Kochi,Kerala,South,Beauty,Haircare,Dove Shampoo 1L,399,6,0.05,150,25,UPI,Not Returned
+EC-014,2024-01-28,2024-02-01,C-1013,Sanjay Bose,Corporate,Bhopal,Madhya Pradesh,Central,Furniture,Storage,Nilkamal Wardrobe,15999,1,0.1,3200,400,Credit Card,Not Returned
+EC-015,2024-02-01,2024-02-05,C-1014,Meena Pillai,Consumer,Coimbatore,Tamil Nadu,South,Electronics,Smartphones,Redmi Note 13,18999,2,0.05,3800,100,Debit Card,Not Returned
+EC-016,2024-02-03,2024-02-07,C-1015,Arjun Desai,Consumer,Nagpur,Maharashtra,West,Grocery,Beverages,Bisleri Water 20L,90,10,0.0,36,10,COD,Not Returned
+EC-017,2024-02-05,2024-02-09,C-1016,Sneha Iyer,Corporate,Indore,Madhya Pradesh,Central,Clothing,Kids Wear,Mothercare T-Shirt,599,4,0.1,180,30,UPI,Returned
+EC-018,2024-02-07,2024-02-11,C-1017,Rajesh Chandra,Consumer,Chandigarh,Punjab,North,Electronics,Laptops,Lenovo IdeaPad Slim,49999,1,0.05,10000,200,Credit Card,Not Returned
+EC-019,2024-02-09,2024-02-13,C-1018,Divya Menon,Home Office,Thiruvananthapuram,Kerala,South,Furniture,Desks,Ikea Micke Desk,7999,1,0.0,1600,280,Debit Card,Not Returned
+EC-020,2024-02-11,2024-02-15,C-1019,Karan Malhotra,Consumer,Ludhiana,Punjab,North,Beauty,Makeup,MAC Lipstick,1800,3,0.1,540,40,UPI,Not Returned
+EC-021,2024-02-13,2024-02-17,C-1020,Preeti Shah,Corporate,Vadodara,Gujarat,West,Electronics,Accessories,Logitech MX Master 3,7999,2,0.05,2400,90,Credit Card,Not Returned
+EC-022,2024-02-15,2024-02-19,C-1002,Priya Mehta,Corporate,Delhi,Delhi,North,Grocery,Dairy,Amul Butter 500g,285,8,0.0,114,15,COD,Not Returned
+EC-023,2024-02-17,2024-02-21,C-1021,Suresh Nambiar,Consumer,Mangalore,Karnataka,South,Clothing,Footwear,Bata Sandals,1299,2,0.05,390,50,Debit Card,Not Returned
+EC-024,2024-02-19,2024-02-23,C-1022,Ananya Roy,Consumer,Kolkata,West Bengal,East,Electronics,Tablets,Samsung Tab A8,22999,1,0.0,4600,150,UPI,Not Returned
+EC-025,2024-02-21,2024-02-25,C-1023,Manish Agarwal,Home Office,Kanpur,Uttar Pradesh,North,Furniture,Chairs,Featherlite Ergonomic Chair,12999,1,0.05,2600,320,Credit Card,Not Returned
+EC-026,2024-02-23,2024-02-27,C-1024,Ritu Kapoor,Consumer,Amritsar,Punjab,North,Beauty,Skincare,The Ordinary Niacinamide,850,5,0.1,255,35,COD,Returned
+EC-027,2024-02-25,2024-02-29,C-1025,Vivek Sharma,Corporate,Noida,Uttar Pradesh,North,Electronics,Smartphones,iPhone 15,99999,1,0.05,19999,250,Credit Card,Not Returned
+EC-028,2024-03-01,2024-03-05,C-1003,Rohan Patel,Consumer,Bangalore,Karnataka,South,Grocery,Snacks,Lay's Chips 26gx10,199,12,0.0,80,15,UPI,Not Returned
+EC-029,2024-03-03,2024-03-07,C-1026,Pallavi Jain,Consumer,Jodhpur,Rajasthan,North,Clothing,Women's Wear,FabIndia Kurti,1599,3,0.1,480,55,Debit Card,Not Returned
+EC-030,2024-03-05,2024-03-09,C-1027,Nikhil Bajaj,Corporate,Gurgaon,Haryana,North,Electronics,Laptops,Dell XPS 13,89999,1,0.05,18000,300,Credit Card,Not Returned
+EC-031,2024-03-07,2024-03-11,C-1028,Swati Pandey,Consumer,Varanasi,Uttar Pradesh,North,Furniture,Storage,Plastic Storage Box Set,999,5,0.0,400,60,COD,Not Returned
+EC-032,2024-03-09,2024-03-13,C-1029,Tarun Negi,Consumer,Dehradun,Uttarakhand,North,Beauty,Haircare,Pantene Pro-V Shampoo,349,8,0.05,140,20,UPI,Not Returned
+EC-033,2024-03-11,2024-03-15,C-1030,Lakshmi Venkat,Corporate,Chennai,Tamil Nadu,South,Electronics,Accessories,JBL Earphones,2499,4,0.1,750,70,Credit Card,Not Returned
+EC-034,2024-03-13,2024-03-17,C-1004,Sunita Rao,Home Office,Chennai,Tamil Nadu,South,Grocery,Beverages,Tata Tea Premium 1kg,299,6,0.0,120,10,Debit Card,Not Returned
+EC-035,2024-03-15,2024-03-19,C-1031,Mohit Aggarwal,Consumer,Faridabad,Haryana,North,Clothing,Men's Wear,Levi's 511 Jeans,3499,2,0.1,1050,75,UPI,Not Returned
+EC-036,2024-03-17,2024-03-21,C-1032,Nisha Kapila,Consumer,Ghaziabad,Uttar Pradesh,North,Electronics,Smartphones,Vivo V27,25999,1,0.05,5200,120,COD,Not Returned
+EC-037,2024-03-19,2024-03-23,C-1033,Harish Pillai,Corporate,Thrissur,Kerala,South,Furniture,Tables,Glass Centre Table,8999,1,0.0,1800,350,Credit Card,Not Returned
+EC-038,2024-03-21,2024-03-25,C-1034,Geeta Mishra,Consumer,Allahabad,Uttar Pradesh,North,Beauty,Makeup,Lakme Foundation,899,3,0.1,270,30,Debit Card,Returned
+EC-039,2024-03-23,2024-03-27,C-1035,Anil Kulkarni,Consumer,Nasik,Maharashtra,West,Grocery,Snacks,Maggi Noodles 12pk,180,15,0.0,72,10,UPI,Not Returned
+EC-040,2024-03-25,2024-03-29,C-1036,Shalini Verma,Corporate,Meerut,Uttar Pradesh,North,Electronics,Tablets,Realme Pad Mini,12999,2,0.05,3900,120,Credit Card,Not Returned
+EC-041,2024-04-02,2024-04-06,C-1005,Vikram Singh,Consumer,Hyderabad,Telangana,South,Clothing,Footwear,Puma Running Shoes,5999,1,0.05,1800,80,COD,Not Returned
+EC-042,2024-04-04,2024-04-08,C-1037,Rekha Tripathi,Home Office,Raipur,Chhattisgarh,Central,Furniture,Chairs,Boss Office Chair,9999,2,0.1,3000,280,Debit Card,Not Returned
+EC-043,2024-04-06,2024-04-10,C-1038,Pavan Kumar,Consumer,Visakhapatnam,Andhra Pradesh,South,Electronics,Laptops,Asus VivoBook,44999,1,0.0,9000,200,UPI,Not Returned
+EC-044,2024-04-08,2024-04-12,C-1039,Prabhadeep Singh,Corporate,Amritsar,Punjab,North,Beauty,Skincare,Neutrogena Face Wash,299,10,0.05,120,20,Credit Card,Not Returned
+EC-045,2024-04-10,2024-04-14,C-1040,Suman Bhatt,Consumer,Ahmedabad,Gujarat,West,Grocery,Dairy,Mother Dairy Ghee 1L,650,4,0.0,260,15,COD,Not Returned
+EC-046,2024-04-12,2024-04-16,C-1007,Deepak Kumar,Consumer,Kolkata,West Bengal,East,Clothing,Kids Wear,H&M Kids Jacket,1899,2,0.1,570,45,UPI,Not Returned
+EC-047,2024-04-14,2024-04-18,C-1041,Bindu Narayanan,Corporate,Coimbatore,Tamil Nadu,South,Electronics,Printers,Canon Pixma G3010,12999,1,0.0,2600,100,Debit Card,Not Returned
+EC-048,2024-04-16,2024-04-20,C-1042,Gaurav Sood,Consumer,Ludhiana,Punjab,North,Furniture,Storage,Steel Almirah,16999,1,0.05,3400,500,Credit Card,Not Returned
+EC-049,2024-04-18,2024-04-22,C-1043,Meghna Das,Consumer,Guwahati,Assam,East,Beauty,Haircare,Himalaya Anti Dandruff,180,10,0.0,72,15,COD,Not Returned
+EC-050,2024-04-20,2024-04-24,C-1044,Lalit Sharma,Consumer,Jaipur,Rajasthan,North,Electronics,Smartphones,OPPO Reno 8,29999,1,0.05,6000,130,UPI,Not Returned
+EC-051,2024-04-22,2024-04-26,C-1010,Kavya Reddy,Consumer,Surat,Gujarat,West,Grocery,Beverages,Nestle Kit Kat Box,450,8,0.0,180,12,Debit Card,Not Returned
+EC-052,2024-04-24,2024-04-28,C-1045,Harshit Garg,Corporate,Noida,Uttar Pradesh,North,Clothing,Men's Wear,Van Heusen Blazer,5999,1,0.1,1800,100,Credit Card,Not Returned
+EC-053,2024-05-01,2024-05-05,C-1046,Isha Walia,Consumer,Mumbai,Maharashtra,West,Electronics,Accessories,Portronics Power Bank,1999,3,0.05,900,60,UPI,Not Returned
+EC-054,2024-05-03,2024-05-07,C-1047,Sameer Trivedi,Consumer,Delhi,Delhi,North,Furniture,Tables,Pepperfry Dining Table,22999,1,0.0,4600,600,COD,Not Returned
+EC-055,2024-05-05,2024-05-09,C-1048,Renu Srivastava,Home Office,Lucknow,Uttar Pradesh,North,Beauty,Makeup,Maybelline Mascara,699,5,0.05,280,25,Debit Card,Not Returned
+EC-056,2024-05-07,2024-05-11,C-1049,Dinesh Mahajan,Corporate,Chandigarh,Punjab,North,Electronics,Laptops,MacBook Air M2,109999,1,0.05,22000,350,Credit Card,Not Returned
+EC-057,2024-05-09,2024-05-13,C-1050,Riya Oberoi,Consumer,Pune,Maharashtra,West,Grocery,Snacks,Oreo Cookies Pack,99,20,0.0,40,8,UPI,Not Returned
+EC-058,2024-05-11,2024-05-15,C-1011,Rahul Tiwari,Home Office,Lucknow,Uttar Pradesh,North,Clothing,Women's Wear,W for Woman Kurti,1199,4,0.1,360,50,COD,Not Returned
+EC-059,2024-05-13,2024-05-17,C-1051,Aastha Kapoor,Consumer,Agra,Uttar Pradesh,North,Electronics,Tablets,Lenovo Tab M10,17999,1,0.0,3600,140,Debit Card,Not Returned
+EC-060,2024-05-15,2024-05-19,C-1052,Siddharth Jha,Consumer,Patna,Bihar,East,Furniture,Chairs,Plastic Monobloc Chair,799,6,0.05,320,80,UPI,Not Returned
+EC-061,2024-05-17,2024-05-21,C-1053,Tanvi Choudhary,Corporate,Jodhpur,Rajasthan,North,Beauty,Skincare,Forest Essentials Toner,1250,4,0.1,500,35,Credit Card,Not Returned
+EC-062,2024-05-19,2024-05-23,C-1006,Anjali Gupta,Corporate,Pune,Maharashtra,West,Grocery,Dairy,Amul Gold Milk 6L Tetra,350,10,0.0,140,12,COD,Not Returned
+EC-063,2024-05-21,2024-05-25,C-1054,Nitin Misra,Consumer,Nagpur,Maharashtra,West,Electronics,Smartphones,Motorola G84,19999,2,0.05,8000,110,Debit Card,Not Returned
+EC-064,2024-05-23,2024-05-27,C-1055,Kinjal Desai,Consumer,Vadodara,Gujarat,West,Clothing,Footwear,Woodland Boots,3999,1,0.1,1200,70,UPI,Not Returned
+EC-065,2024-05-25,2024-05-29,C-1056,Vikash Yadav,Home Office,Patna,Bihar,East,Furniture,Desks,Durian Computer Table,8999,1,0.0,1800,280,Credit Card,Not Returned
+EC-066,2024-06-02,2024-06-06,C-1057,Rekha Agarwal,Consumer,Jaipur,Rajasthan,North,Beauty,Makeup,Nykaa Nail Polish Set,599,6,0.05,240,25,COD,Not Returned
+EC-067,2024-06-04,2024-06-08,C-1058,Sudhir Bhandari,Corporate,Bhopal,Madhya Pradesh,Central,Electronics,Laptops,HP Spectre x360,119999,1,0.05,24000,400,Credit Card,Not Returned
+EC-068,2024-06-06,2024-06-10,C-1059,Vandana Singh,Consumer,Ranchi,Jharkhand,East,Grocery,Snacks,Haldiram Namkeen Variety,499,8,0.0,200,20,Debit Card,Not Returned
+EC-069,2024-06-08,2024-06-12,C-1060,Piyush Arora,Consumer,Gurgaon,Haryana,North,Clothing,Men's Wear,Raymond Suit,14999,1,0.1,4500,120,UPI,Not Returned
+EC-070,2024-06-10,2024-06-14,C-1015,Arjun Desai,Consumer,Nagpur,Maharashtra,West,Electronics,Accessories,Zebronics Keyboard+Mouse,1299,3,0.05,390,50,Credit Card,Not Returned
+EC-071,2024-06-12,2024-06-16,C-1061,Deepika Sinha,Corporate,Ranchi,Jharkhand,East,Furniture,Storage,Godrej Interio Cabinet,24999,1,0.0,5000,600,COD,Not Returned
+EC-072,2024-06-14,2024-06-18,C-1062,Maninder Kaur,Consumer,Amritsar,Punjab,North,Beauty,Haircare,Tresemme Conditioner,349,6,0.05,140,20,Debit Card,Not Returned
+EC-073,2024-06-16,2024-06-20,C-1063,Rahul Gupta,Consumer,Allahabad,Uttar Pradesh,North,Electronics,Smartphones,OnePlus Nord CE3,24999,1,0.05,5000,120,UPI,Not Returned
+EC-074,2024-06-18,2024-06-22,C-1064,Preeti Walia,Home Office,Delhi,Delhi,North,Grocery,Beverages,Starbucks Coffee Beans,999,5,0.0,400,30,Credit Card,Not Returned
+EC-075,2024-06-20,2024-06-24,C-1022,Ananya Roy,Consumer,Kolkata,West Bengal,East,Clothing,Kids Wear,Gap Kids Set,2499,2,0.1,750,60,COD,Returned
+EC-076,2024-06-22,2024-06-26,C-1065,Sunil Rawat,Corporate,Dehradun,Uttarakhand,North,Electronics,Tablets,iPad Air M1,59999,1,0.05,12000,200,Debit Card,Not Returned
+EC-077,2024-06-24,2024-06-28,C-1066,Anu Menon,Consumer,Kochi,Kerala,South,Furniture,Chairs,Wooden Rocking Chair,6999,1,0.0,1400,300,UPI,Not Returned
+EC-078,2024-06-26,2024-06-30,C-1067,Vijay Sawant,Consumer,Mumbai,Maharashtra,West,Beauty,Skincare,Cetaphil Moisturizer,699,8,0.05,420,25,Credit Card,Not Returned
+EC-079,2024-07-02,2024-07-06,C-1068,Harpreet Kaur,Consumer,Ludhiana,Punjab,North,Electronics,Laptops,Acer Aspire 5,42999,1,0.0,8600,200,COD,Not Returned
+EC-080,2024-07-04,2024-07-08,C-1069,Roshan Mehta,Corporate,Surat,Gujarat,West,Grocery,Snacks,Britannia NutriChoice,299,15,0.0,120,15,Debit Card,Not Returned
+EC-081,2024-07-06,2024-07-10,C-1070,Rashmi Shukla,Consumer,Varanasi,Uttar Pradesh,North,Clothing,Women's Wear,Saree (Banarasi),4500,2,0.1,1350,60,UPI,Not Returned
+EC-082,2024-07-08,2024-07-12,C-1071,Kamal Tiwari,Home Office,Bhopal,Madhya Pradesh,Central,Electronics,Printers,Epson L3252,13999,1,0.05,2800,100,Credit Card,Not Returned
+EC-083,2024-07-10,2024-07-14,C-1072,Nandita Rao,Consumer,Hyderabad,Telangana,South,Furniture,Tables,Marble Top Dining Table,34999,1,0.0,7000,700,COD,Not Returned
+EC-084,2024-07-12,2024-07-16,C-1073,Ishaan Tomar,Consumer,Faridabad,Haryana,North,Beauty,Makeup,Sugar Cosmetics Palette,1299,4,0.1,520,35,Debit Card,Not Returned
+EC-085,2024-07-14,2024-07-18,C-1008,Neha Joshi,Consumer,Ahmedabad,Gujarat,West,Electronics,Smartphones,Poco X5 Pro,22999,2,0.05,9200,120,UPI,Not Returned
+EC-086,2024-07-16,2024-07-20,C-1074,Pratibha Nair,Corporate,Thiruvananthapuram,Kerala,South,Grocery,Beverages,Horlicks 1kg,380,10,0.0,152,15,Credit Card,Not Returned
+EC-087,2024-07-18,2024-07-22,C-1075,Shiv Pandey,Consumer,Kanpur,Uttar Pradesh,North,Clothing,Men's Wear,Peter England Shirt,1699,3,0.1,510,45,COD,Not Returned
+EC-088,2024-07-20,2024-07-24,C-1076,Priya Suri,Consumer,Jaipur,Rajasthan,North,Electronics,Accessories,Mi Truly Wireless,1299,5,0.05,975,50,Debit Card,Not Returned
+EC-089,2024-07-22,2024-07-26,C-1077,Ashok Bhosle,Corporate,Pune,Maharashtra,West,Furniture,Desks,Urban Ladder Desk,11999,2,0.0,4800,400,UPI,Not Returned
+EC-090,2024-07-24,2024-07-28,C-1078,Neelam Chawla,Consumer,Chandigarh,Punjab,North,Beauty,Haircare,L'Oreal Shampoo 1L,549,8,0.05,220,20,Credit Card,Not Returned
+EC-091,2024-08-02,2024-08-06,C-1079,Jyothi Srinivas,Consumer,Bangalore,Karnataka,South,Electronics,Smartphones,Nothing Phone 2,44999,1,0.05,9000,150,COD,Not Returned
+EC-092,2024-08-04,2024-08-08,C-1080,Suresh Kumar,Corporate,Chennai,Tamil Nadu,South,Grocery,Dairy,Britannia Cheese Slices,199,20,0.0,80,10,Debit Card,Not Returned
+EC-093,2024-08-06,2024-08-10,C-1081,Megha Rawat,Consumer,Dehradun,Uttarakhand,North,Clothing,Footwear,Adidas Superstar,7999,1,0.1,2400,80,UPI,Not Returned
+EC-094,2024-08-08,2024-08-12,C-1082,Rajat Vohra,Home Office,Noida,Uttar Pradesh,North,Electronics,Laptops,MSI Modern 14,55999,1,0.05,11200,250,Credit Card,Not Returned
+EC-095,2024-08-10,2024-08-14,C-1083,Sweta Dixit,Consumer,Raipur,Chhattisgarh,Central,Furniture,Chairs,Reclinorama Sofa,18999,1,0.0,3800,500,COD,Not Returned
+EC-096,2024-08-12,2024-08-16,C-1084,Chetan Malhotra,Consumer,Delhi,Delhi,North,Beauty,Skincare,Dot & Key Sunscreen,699,12,0.05,420,25,Debit Card,Not Returned
+EC-097,2024-08-14,2024-08-18,C-1009,Amit Verma,Corporate,Jaipur,Rajasthan,North,Electronics,Tablets,Xiaomi Pad 6,28999,1,0.05,5800,160,UPI,Not Returned
+EC-098,2024-08-16,2024-08-20,C-1085,Usha Iyer,Consumer,Coimbatore,Tamil Nadu,South,Grocery,Snacks,Parle G Biscuits 1kg,100,25,0.0,40,8,Credit Card,Not Returned
+EC-099,2024-08-18,2024-08-22,C-1086,Nirupama Jain,Consumer,Jaipur,Rajasthan,North,Clothing,Women's Wear,Anita Dongre Kurta,2999,3,0.1,900,55,COD,Not Returned
+EC-100,2024-08-20,2024-08-24,C-1087,Deepesh Agarwal,Corporate,Ahmedabad,Gujarat,West,Electronics,Accessories,iKall Power Bank,999,6,0.05,450,40,Debit Card,Not Returned
+EC-101,2024-09-02,2024-09-06,C-1088,Bharati Yadav,Consumer,Mumbai,Maharashtra,West,Furniture,Tables,Wooden Coffee Table,9999,1,0.0,2000,300,UPI,Not Returned
+EC-102,2024-09-04,2024-09-08,C-1089,Harish Goud,Corporate,Hyderabad,Telangana,South,Electronics,Laptops,Lenovo ThinkPad E14,65999,1,0.05,13200,300,Credit Card,Not Returned
+EC-103,2024-09-06,2024-09-10,C-1090,Shilpa Murthy,Consumer,Bangalore,Karnataka,South,Grocery,Beverages,Red Bull 24 Pack,2400,4,0.0,960,25,COD,Not Returned
+EC-104,2024-09-08,2024-09-12,C-1014,Meena Pillai,Consumer,Coimbatore,Tamil Nadu,South,Clothing,Kids Wear,Zara Kids Set,3499,2,0.1,1050,60,Debit Card,Not Returned
+EC-105,2024-09-10,2024-09-14,C-1091,Ajay Nath,Consumer,Allahabad,Uttar Pradesh,North,Beauty,Makeup,Elle 18 Kajal Set,299,10,0.05,120,20,UPI,Not Returned
+EC-106,2024-09-12,2024-09-16,C-1092,Indira Das,Home Office,Kolkata,West Bengal,East,Electronics,Printers,Brother MFC-J995DW,27999,1,0.0,5600,150,Credit Card,Not Returned
+EC-107,2024-09-14,2024-09-18,C-1093,Aryan Mehta,Consumer,Mumbai,Maharashtra,West,Furniture,Storage,Wakefit Wardrobe,19999,1,0.05,4000,600,COD,Not Returned
+EC-108,2024-09-16,2024-09-20,C-1094,Kaveri Pillai,Consumer,Madurai,Tamil Nadu,South,Electronics,Smartphones,iQOO Neo 7,29999,1,0.05,6000,130,Debit Card,Not Returned
+EC-109,2024-09-18,2024-09-22,C-1017,Rajesh Chandra,Consumer,Chandigarh,Punjab,North,Grocery,Dairy,Nestle Milkmaid Tin,85,30,0.0,34,10,UPI,Not Returned
+EC-110,2024-09-20,2024-09-24,C-1095,Sarvesh Kumar,Corporate,Gurgaon,Haryana,North,Clothing,Men's Wear,Tommy Hilfiger Tshirt,2499,4,0.1,1500,60,Credit Card,Not Returned
+EC-111,2024-10-02,2024-10-06,C-1096,Pallavi Rao,Consumer,Vizag,Andhra Pradesh,South,Electronics,Accessories,Sony WH-1000XM5,29999,1,0.05,6000,100,COD,Not Returned
+EC-112,2024-10-04,2024-10-08,C-1097,Neeraj Gupta,Consumer,Delhi,Delhi,North,Furniture,Chairs,IKEA Markus Chair,15999,2,0.0,6400,350,Debit Card,Not Returned
+EC-113,2024-10-06,2024-10-10,C-1098,Swarna Krishnan,Corporate,Chennai,Tamil Nadu,South,Beauty,Skincare,Kiehl's Moisturizer,2800,6,0.1,1680,50,UPI,Not Returned
+EC-114,2024-10-08,2024-10-12,C-1099,Hitesh Solanki,Consumer,Rajkot,Gujarat,West,Electronics,Laptops,HP Envy x360,79999,1,0.05,16000,280,Credit Card,Not Returned
+EC-115,2024-10-10,2024-10-14,C-1100,Sujata Bose,Consumer,Kolkata,West Bengal,East,Grocery,Snacks,Dark Fantasy Cookies,249,18,0.0,100,10,COD,Not Returned
+EC-116,2024-10-12,2024-10-16,C-1050,Riya Oberoi,Consumer,Pune,Maharashtra,West,Clothing,Footwear,Crocs Classic,3999,2,0.1,1200,65,Debit Card,Not Returned
+EC-117,2024-10-14,2024-10-18,C-1101,Ankit Thakur,Home Office,Shimla,Himachal Pradesh,North,Electronics,Smartphones,Samsung Galaxy A54,37999,1,0.05,7600,140,UPI,Not Returned
+EC-118,2024-10-16,2024-10-20,C-1056,Vikash Yadav,Home Office,Patna,Bihar,East,Furniture,Tables,Glass Dining Table,14999,1,0.0,3000,500,Credit Card,Not Returned
+EC-119,2024-10-18,2024-10-22,C-1102,Shefali Pandey,Consumer,Gorakhpur,Uttar Pradesh,North,Beauty,Haircare,Biotique Bio Kelp,299,12,0.05,120,18,COD,Not Returned
+EC-120,2024-10-20,2024-10-24,C-1103,Pramod Tiwari,Corporate,Lucknow,Uttar Pradesh,North,Electronics,Tablets,IQOO Pad,39999,1,0.05,8000,180,Debit Card,Not Returned
+EC-121,2024-11-02,2024-11-06,C-1104,Anup Sharma,Consumer,Mumbai,Maharashtra,West,Electronics,Smartphones,iPhone 15 Pro,134999,1,0.05,27000,350,UPI,Not Returned
+EC-122,2024-11-04,2024-11-08,C-1105,Geeta Kumari,Consumer,Patna,Bihar,East,Grocery,Beverages,Tropicana Juice 12pk,960,6,0.0,384,20,Credit Card,Not Returned
+EC-123,2024-11-06,2024-11-10,C-1106,Sanjay Bhatia,Corporate,Delhi,Delhi,North,Clothing,Men's Wear,Louis Philippe Shirt,3499,5,0.1,2625,80,COD,Not Returned
+EC-124,2024-11-08,2024-11-12,C-1107,Puja Shrivastava,Consumer,Bhopal,Madhya Pradesh,Central,Furniture,Chairs,Nilkamal Chair Set 4pk,7999,1,0.0,1600,200,Debit Card,Not Returned
+EC-125,2024-11-10,2024-11-14,C-1042,Gaurav Sood,Consumer,Ludhiana,Punjab,North,Electronics,Accessories,boAt Rockerz 550,2499,4,0.05,1500,50,UPI,Not Returned
+EC-126,2024-11-12,2024-11-16,C-1108,Asha Nair,Consumer,Trivandrum,Kerala,South,Beauty,Skincare,Plum Goodness Serum,999,8,0.1,600,30,Credit Card,Not Returned
+EC-127,2024-11-14,2024-11-18,C-1109,Sharad Mehta,Corporate,Ahmedabad,Gujarat,West,Electronics,Laptops,Asus ROG Strix,129999,1,0.05,26000,400,COD,Not Returned
+EC-128,2024-11-16,2024-11-20,C-1110,Prithvi Raj,Consumer,Jaipur,Rajasthan,North,Grocery,Snacks,Cornitos Nachos Set,599,10,0.0,240,15,Debit Card,Not Returned
+EC-129,2024-11-18,2024-11-22,C-1111,Kamala Devi,Consumer,Mysore,Karnataka,South,Clothing,Women's Wear,Silk Saree,8999,1,0.1,2700,80,UPI,Not Returned
+EC-130,2024-11-20,2024-11-24,C-1112,Suresh Patel,Home Office,Surat,Gujarat,West,Electronics,Printers,HP OfficeJet Pro,24999,1,0.0,5000,150,Credit Card,Not Returned
+EC-131,2024-11-22,2024-11-26,C-1113,Reshma Banu,Consumer,Hyderabad,Telangana,South,Furniture,Tables,Wakefit Bed Frame,17999,1,0.05,3600,500,COD,Not Returned
+EC-132,2024-11-24,2024-11-28,C-1025,Vivek Sharma,Corporate,Noida,Uttar Pradesh,North,Beauty,Makeup,FACES Canada Primer,899,6,0.1,540,30,Debit Card,Not Returned
+EC-133,2024-11-26,2024-11-30,C-1114,Alok Raj,Consumer,Ranchi,Jharkhand,East,Electronics,Smartphones,Realme 11 Pro,24999,2,0.05,9999,120,UPI,Not Returned
+EC-134,2024-12-02,2024-12-06,C-1115,Poornima Iyer,Consumer,Chennai,Tamil Nadu,South,Grocery,Dairy,Amul Paneer 400g,160,20,0.0,64,10,Credit Card,Not Returned
+EC-135,2024-12-04,2024-12-08,C-1116,Navin Gupta,Corporate,Gurgaon,Haryana,North,Clothing,Men's Wear,Manyavar Sherwani,12999,1,0.1,3900,150,COD,Not Returned
+EC-136,2024-12-06,2024-12-10,C-1117,Tara Singh,Consumer,Chandigarh,Punjab,North,Electronics,Accessories,Noise Smartwatch,3999,3,0.05,1800,70,Debit Card,Not Returned
+EC-137,2024-12-08,2024-12-12,C-1118,Arvind Nambiar,Consumer,Kochi,Kerala,South,Furniture,Desks,Pepperfry L-Shape Desk,13999,1,0.0,2800,400,UPI,Not Returned
+EC-138,2024-12-10,2024-12-14,C-1119,Lavanya Priya,Consumer,Bangalore,Karnataka,South,Beauty,Skincare,Minimalist Vitamin C,695,15,0.05,417,25,Credit Card,Not Returned
+EC-139,2024-12-12,2024-12-16,C-1120,Ramesh Bhatia,Consumer,Delhi,Delhi,North,Electronics,Smartphones,Pixel 8a,52999,1,0.05,10600,180,COD,Not Returned
+EC-140,2024-12-14,2024-12-18,C-1099,Hitesh Solanki,Consumer,Rajkot,Gujarat,West,Grocery,Snacks,Too Yumm Multigrain,249,20,0.0,100,10,Debit Card,Not Returned
+EC-141,2024-12-16,2024-12-20,C-1121,Heena Soni,Consumer,Jaipur,Rajasthan,North,Clothing,Women's Wear,Mango Dress,4999,2,0.1,1500,75,UPI,Not Returned
+EC-142,2024-12-18,2024-12-22,C-1122,Ritesh Kapoor,Corporate,Mumbai,Maharashtra,West,Electronics,Laptops,Surface Laptop 5,119999,1,0.05,24000,400,Credit Card,Not Returned
+EC-143,2024-12-20,2024-12-24,C-1030,Lakshmi Venkat,Corporate,Chennai,Tamil Nadu,South,Furniture,Storage,Durian Shoe Cabinet,5999,2,0.0,2400,180,COD,Not Returned
+EC-144,2024-12-22,2024-12-26,C-1123,Prity Agarwal,Consumer,Lucknow,Uttar Pradesh,North,Beauty,Haircare,Kérastase Shampoo,2599,4,0.05,1560,50,Debit Card,Not Returned
+EC-145,2024-12-24,2024-12-28,C-1124,Arpit Goyal,Consumer,Noida,Uttar Pradesh,North,Electronics,Tablets,OnePlus Pad,39999,1,0.05,8000,180,UPI,Not Returned
+EC-146,2024-12-26,2024-12-30,C-1059,Piyush Arora,Consumer,Gurgaon,Haryana,North,Grocery,Beverages,Nescafe Gold 200g,850,8,0.0,340,20,Credit Card,Not Returned
+EC-147,2024-12-28,2025-01-01,C-1035,Mohit Aggarwal,Consumer,Faridabad,Haryana,North,Clothing,Footwear,Reebok Classic,5499,2,0.1,1650,80,COD,Not Returned
+EC-148,2024-12-30,2025-01-03,C-1087,Deepesh Agarwal,Corporate,Ahmedabad,Gujarat,West,Electronics,Smartphones,OPPO Find N3 Flip,74999,1,0.05,15000,250,Debit Card,Not Returned
+EC-149,2024-12-31,2025-01-04,C-1125,Nalini Krishnaswamy,Consumer,Coimbatore,Tamil Nadu,South,Furniture,Chairs,Durian Recliner,28999,1,0.0,5800,700,UPI,Not Returned
+EC-150,2024-12-31,2025-01-05,C-1126,Devesh Chaturvedi,Consumer,Agra,Uttar Pradesh,North,Beauty,Makeup,NYX Eyeshadow Palette,1499,5,0.1,750,35,Credit Card,Not Returned
